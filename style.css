@@ -5,6 +5,48 @@
     font-family: 'Poppins';
     font-size: 14px;
 }
+a{
+    text-decoration: none;
+}
+textarea{
+    display: flex;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5px;
+
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: coral;
+    outline: none;
+    resize: none;
+
+}
+
+textarea:focus::placeholder{
+    color: transparent;
+
+}
+.enviar{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    transition: 500ms;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+button{
+    display: flex;
+    border: none;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: -8%;
+    cursor: pointer;
+}
 ::-webkit-scrollbar {
     width: 8px;
   }
@@ -155,6 +197,7 @@ svg{
     transition: 700ms;
 }
 
+
 .img-width{
     width: 30%;
     margin-top: 30px;
@@ -180,7 +223,13 @@ svg{
     background-color: rgb(216, 220, 235);
 }
 .agradecimiento{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
     width: 60%;
+    max-width: 60%;
+    font-size: 30px;
 }
 .divrandom{
     display: flex;
