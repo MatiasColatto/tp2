@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px rgba(139, 108, 202, 0.355); 
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(154, 172, 216); 
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(126, 142, 181); 
+  }
+input{
+    border-radius: 20px;
+    border-color: rgb(198, 199, 220);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    background-color: white;
+}
+.footdiv:hover{
+    background-color: white;
+    border-radius: 10px;
+    transition: 700ms;
+}
+select{
+    border-radius: 20px;
+    border: 2px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgb(198, 199, 220);
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.hoverbutton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+    transition: 700ms;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+  
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; 
+}
+
+p{
+    margin-right: 20%;
+    margin-top: 5%;
+    float: right;
+    font-size: 30px;
+    max-width: 30%;
+}
+footer{
+    user-select: none;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: rgb(237, 234, 251);
+}
+svg{
+    float:right;
+    margin-left: 10px;
+}
+.copyright{
+    margin-top: 30px;
+}
+.footdiv{
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 700ms;
+}
+.sec{
+    text-decoration: dashed;    
+    color: black;
+    background-color: rgb(225, 222, 236);
+    border-radius: 250px;
+    padding: 2px;
+    transition: 700ms;
+
+}
+.sec:hover{
+    background-color: rgb(208, 200, 236);
+    transition: 700ms;
+}
+.abottom{
+    padding-bottom: 2%;
+    text-align:start;
+}
+.center{
+    padding-left: 52%;
+}
+.userform{
+    border-radius: 20px;
+    background-color: rgb(241, 242, 249);
+    font-size: 15px;
+    padding-top: 40px;
+}
+.floatdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 56px;
+    border: 10px;
+    background-color: black;
+    border-radius: 400px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.topimg{
+    filter: brightness(1.0) grayscale();
+    border-radius: 250px;
+    width: 95%;
+    height: 600px;
+    transition: 700ms;
+    margin-left: 2%;
+}
+.topimg:hover{
+    filter: none;
+    transition: 700ms;
+}
+
+.img-width{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.secciondos{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.secciontres{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.datos{
+    user-select: none;
+    float: left;
+    font-size: 30px;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2.7%;
+    background-color: rgb(216, 220, 235);
+}
+.agradecimiento{
+    width: 60%;
+}
+.divrandom{
+    display: flex;
+}
