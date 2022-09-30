@@ -264,6 +264,9 @@ svg{
     color: black;
 
   }
+  .noborder{
+    border: none;
+  }
   
   .flexsec{
     display: flex;
@@ -295,4 +298,13 @@ svg{
     background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #ecdde3 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #ecdde3 10px, rgba(96, 16, 48, 0) 11px), none;
     background: radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, #ecdde3 10px, rgba(96, 16, 48, 0) 11px), radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, #ecdde3 10px, rgba(96, 16, 48, 0) 11px), none;
     background-size: 20px 20px;
+}
+.pointer{
+    cursor: pointer;
+}
+.btnsalir{
+    padding: 2%;
+    width: 15%;
+    font-size: 30px;
+    font-weight: 900;
 }
